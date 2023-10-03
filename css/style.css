@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.row {
+    padding-top: 4em;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 50%;
+    object-fit: cover;
+}
+
+nav {
+    height: 100%;
+}
+
+.header-menu ul {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-menu ul li {
+    list-style-type: none;
+    padding: 0 1em;
+}
+
+.header-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.banner {
+    top: 0;
+    position: relative;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner-content {
+    position: absolute;
+    width: 40%;
+    bottom: 5rem;
+    right: 0;
+    padding-right: 5rem;
+}
+
+.banner-content h1 {
+    text-align: right;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.banner-content h2 {
+    font-size: 2.5em;
+    text-align: right;
+    font-weight: 700;
+    color: #F36F2C;
+}
+
+.banner-content button {
+    font-size: 0.7em;
+    border: none;
+    background-color: #05A9D7;
+    color: #fff;
+    padding: 0.4em 1em;
+    font-weight: 500;
+}
+
+.banner-button {
+    display: flex;
+    justify-content: end;
+    width: 80%;
+}
+
+.ads {
+    background-color: #05A9D7;
+    color: #fff;
+    padding: 2em;
+}
+
+.ads h2 {
+    font-size: 2.1rem;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about {
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    width: 32%;
+}
+
+.about-content h3 {
+    color: #05A9D7;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.about-content h2 {
+    color: #F36F2C;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.about-content p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    text-align: justify;
+}
+.about-button button {
+    border: none;
+    color: #fff;
+    background-color: #F36F2C;
+    padding: 0.5rem 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.about-button {
+    display: flex;
+    justify-content: end;
+}
