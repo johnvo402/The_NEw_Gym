@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -47,6 +48,7 @@ nav {
     height: 100%;
     justify-content: center;
     align-items: center;
+    padding: 0;
 }
 
 .header-menu ul li {
@@ -58,6 +60,7 @@ nav {
     color: #ffffff;
     text-decoration: none;
     font-size: 1.1rem;
+    font-weight: 600;
 }
 
 .banner {
@@ -80,14 +83,14 @@ nav {
 .banner-content h1 {
     text-align: right;
     color: #ffffff;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 3rem;
 }
 
 .banner-content h2 {
     font-size: 2.5em;
     text-align: right;
-    font-weight: 700;
+    font-weight: 800;
     color: #F36F2C;
 }
 
@@ -97,7 +100,7 @@ nav {
     background-color: #05A9D7;
     color: #fff;
     padding: 0.4em 1em;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .banner-button {
@@ -119,14 +122,15 @@ nav {
 .ads {
     background-color: #05A9D7;
     color: #fff;
-    padding: 2em;
+    padding: 2em 0;
 }
 
 .ads h2 {
-    font-size: 2.1rem;
+    font-size: 2.5rem;
     margin: 0;
     text-transform: uppercase;
     text-align: center;
+    font-weight: 700;
 }
 
 .about {
@@ -142,29 +146,32 @@ nav {
 
 .about-content h3 {
     color: #05A9D7;
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-
-.about-content h2 {
-    color: #F36F2C;
     font-size: 2rem;
     font-weight: 800;
 }
 
+.about-content h2 {
+    color: #F36F2C;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
 .about-content p {
-    font-size: 1rem;
-    line-height: 1.3rem;
+    padding-top: 1em;
+    color: #000;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
     text-align: justify;
+    font-weight: 500;
 }
 
 .about-button button {
     border: none;
     color: #fff;
     background-color: #F36F2C;
-    padding: 0.5rem 3rem;
+    padding: 0.8rem 3.3rem;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .about-button {
@@ -174,10 +181,9 @@ nav {
 
 .room {
     position: relative;
+    width: 100%;
     background-color: linear-gradient(261deg, #000 16.08%, rgba(0, 0, 0, 0.00) 80.78%);
 }
-
-
 
 .room .room-img {
     position: relative;
@@ -207,13 +213,13 @@ nav {
 
 .room-content h3 {
     color: #05A9D7;
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 800;
 }
 
 .room-content h2 {
     color: #F36F2C;
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 800;
 }
 
@@ -232,7 +238,7 @@ nav {
 }
 
 .service .col-4 {
-    width: 30%;
+    width: 32%;
 }
 
 .card-content-func {
@@ -249,7 +255,8 @@ nav {
 }
 
 .image-service img {
-    height: 25rem;
+    height: 461px;
+    object-fit: cover;
 }
 
 .luyen-tim {
@@ -277,7 +284,7 @@ nav {
     color: #ffffff;
 }
 
-.service .col-4 p {
+.service p {
     font-size: 0.9em;
     padding: 10px 5px;
     text-align: justify;
@@ -320,7 +327,7 @@ nav {
     top: 50%;
     position: absolute;
     display: inline-block;
-    
+
 }
 
 .service-chage-right {
@@ -329,5 +336,316 @@ nav {
     padding-right: 2em;
     position: absolute;
     display: inline-block;
+}
+
+.ads-loich {
+    width: 100%;
+    position: relative;
+    padding: 4em 0;
+    background-image: url(../img/ads-2.png);
+}
+
+.ads-content {
+    width: 100%;
+    position: absolute;
+}
+
+.ads-loich h2 {
+    line-height: 1.5em;
+    text-align: center;
+    z-index: 2;
+}
+
+.ads-loich .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(243, 111, 44, 0.94);
+    ;
+}
+
+.why-chose {
+    margin: 5em 0;
+}
+
+.list-item {
+    display: flex;
+    justify-content: flex-end;
+    height: 50%;
+    padding-top: 2rem;
+}
+
+.wchose-item {
+    width: 40%;
+
+}
+
+.square {
+    position: relative;
+    text-align: center;
+    margin-left: 3rem;
+}
+
+.square img {
+    text-align: center;
+    width: 100%;
+}
+
+.item-img {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    top: 0;
+}
+
+.item-img svg {
+    width: 3.5em;
+}
+
+.wchose-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wchose-title p {
+    margin: 0;
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.item-img svg {
+    text-align: center;
+}
+
+.wchose-content {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    height: 100%;
+}
+
+.wchose-content h3 {
+    color: #05A9D7;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.wchose-content h2 {
+    text-align: end;
+    color: #F36F2C;
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.member {
+    background-color: #05A9D7;
+    color: #fff;
+    padding: 3em 0;
+}
+
+.member h2 {
+    font-size: 2.5rem;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+.packages {
+    margin: 10% 0;
+}
+
+.packages .row {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.package {
+    position: relative;
+}
+
+.package-img {
+    background-color: rgba(0, 0, 0, 0.05);
+    height: 400px;
+}
+
+.package-title {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+}
+
+.package-title h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.package-register {
+    background-color: #000;
+    padding: 1.8em 0;
+}
+
+.package-register h3 {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.package-register a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.one-month .package-title h3 {
+    color: #05A9D7;
+}
+
+.one-month .package-register {
+    background-color: #05A9D7;
+}
+
+.three-month .package-title h3 {
+    color: #B2D600;
+}
+
+.three-month .package-register {
+    background-color: #B2D600;
+}
+
+.six-month .package-title h3 {
+    color: #F36F2C;
+}
+
+.six-month .package-register {
+    background-color: #F36F2C;
+}
+
+
+.footer-main {
     
+    display: flex;
+}
+footer {
+    background-color: #555859;
+    color: #ffffff;
+}
+
+.footer-main-left{
+    width: 70%;
+    padding: 5rem 0;
+}
+.footer-main-left p {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.7em;
+}
+
+.up-contact{
+    padding-bottom: 4rem;
+}
+.up-contact p {
+    margin: 0;
+    text-transform: none;
+}
+.contact-title h3{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.down-contact p{
+    text-transform: none;
+}
+.footer-main-right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.social{
+    display: flex;
+}
+.social div {
+    width: 1.6em;
+    margin-left: 0.2em;
+}
+.social img {
+    width: 100%;
+}
+.youtube{
+    height: 100%;
+}
+
+.youtube a {
+    height: 100%;
+}
+
+.donwload div {
+    margin: 20px 0;
+}
+.donwload div a{
+    display: flex;
+    justify-content: flex-end;
+}
+.donwload div img{
+    width: 80%;
+}
+
+.xac-minh a{
+    display: flex;
+    justify-content: flex-end;
+}
+.xac-minh img{
+    width: 80%;
+}
+
+.footer-phu {
+    background-color: #05A9D7;
+    padding: 20px 0;
+}
+
+.footer-phu p {
+    text-align: center;
+    color: #222;
+    font-weight: 600;
+    font-size: 0.7em;
+    margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .image-service img {
+        height: 361px;
+    }
+
+    .service p {
+        font-size: 0.7em;
+    }
+    .ads-loich h2 {
+        font-size: 2.2rem;
+    }
+
+    .wchose-content h3 {
+        font-size: 3rem;
+    }
+
+    .wchose-content h2 {
+       font-size: 3.5em;
+    }
 }
