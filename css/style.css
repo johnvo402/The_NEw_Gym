@@ -257,7 +257,7 @@ nav {
 }
 
 .image-service img {
-    height: 461px;
+    height: 361px;
     object-fit: cover;
 }
 
@@ -287,8 +287,8 @@ nav {
 }
 
 .service p {
-    font-size: 0.9em;
-    padding: 10px 5px;
+    font-size: 1em;
+    padding: 15px 10px;
     text-align: justify;
     font-weight: 600;
     line-height: 1.2em;
@@ -604,7 +604,11 @@ footer {
     .image-service img {
         height: 361px;
     }
-
+    .image-service img {
+        height: 301px;
+        object-fit: cover;
+    }
+}
     .service p {
         font-size: 0.7em;
     }
@@ -618,5 +622,12 @@ footer {
 
     .wchose-content h2 {
        font-size: 3.5em;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .image-service img {
+        height: 461px;
+        object-fit: cover;
     }
 }
