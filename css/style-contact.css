@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+header .row {
+    padding-top: 3em;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.header-logo a {
+    width: 50%;
+    display: inline;
+}
+
+nav {
+    height: 100%;
+}
+
+.header-menu ul {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.header-menu ul li {
+    list-style-type: none;
+    padding: 0 1em;
+}
+
+.header-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.header-menu a:hover {
+    color: #F36F2C;
+}
+
+.banner {
+    top: 0;
+    position: relative;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner-content {
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+    padding-left: 8rem;
+}
+
+.banner-content button {
+    margin-top: 20px;
+    font-size: 1.2em;
+    border: none;
+    background-color: #05A9D7;
+    color: #fff;
+    padding: 0.5em 1.8em;
+    font-weight: 700;
+}
+
+.banner-button {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-img .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(289deg, rgb(0 0 0 / 65%) 1%, rgba(0, 0, 0, 0) 80.78%);
+    width: 100%;
+    height: 100%;
+}
+
+
+.contact-main-title h2 {
+    color: #555859;
+    ;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 800;
+    margin: 150px 0;
+}
+
+.contact-text-main {
+    margin: 150px 0;
+}
+
+.contact-text-main h1 {
+    text-align: left;
+    color: #05A9D7;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.contact-text-main h2 {
+    font-size: 3em;
+    text-align: left;
+    font-weight: 800;
+    color: #F69361;
+    -webkit-text-stroke: 1px #F69361;
+    -webkit-text-fill-color: white;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info svg {
+    margin: 36px 0;
+}
+
+.contact-phone,
+.contact-mail,
+.contact-book {
+    width: calc(100%/3);
+    text-align: center;
+}
+
+.contact-info-title {
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.contact-info-text {
+    color: #000;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.contact-mail {
+    border-left: 4px solid #05A9D7;
+    border-right: 4px solid #05A9D7;
+}
+
+.contact-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin-top: 150px;
+}
+
+.contact-social .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    background-color: #05A9D7;
+    border-radius: 50%;
+}
+
+.chinhanh-form {
+    display: flex;
+    margin: 150px 0;
+}
+
+.chinhanh {
+    width: 50%;
+}
+
+
+.chinhanh h3 {
+    color: #F36F2C;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.chinhanh h3:first-child {
+    color: #555859;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.tb-chinhanh {
+    width: 100%;
+
+}
+
+.tb-chinhanh .empty-block {
+    height: 50px;
+}
+
+.tb-chinhanh td {
+    padding: 8px 0;
+    color: #777C7E;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tb-chinhanh .time-open {
+    padding-left: 20px;
+    border-left: 2px solid #5558595E;
+}
+
+.form {
+    width: 50%;
+}
+
+.form h3 {
+    color: #555859;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.contact-form input {
+    margin-right: 20px;
+    padding: 8px;
+    width: 40%;
+    border: 1px solid #55585966;
+}
+
+.contact-form textarea {
+    padding: 8px;
+    border: 1px solid #55585966;
+}
+
+.contact-form button {
+    border: none;
+    background-color: #05A9D7;
+    padding: 6px 36px;
+    color: #FFF;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contact-location {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    padding: 40px 0;
+}
+
+.contact-location-info {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-info-img {
+    width: 30%;
+    text-align: center;
+}
+
+.location-info-img img {
+    width: 100%;
+}
+
+.location-info-title h3 {
+    color: #555859;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 16px 0;
+}
+
+.location-info-phone {
+    border-radius: 10px;
+    background: #EEE;
+    padding: 8px 32px;
+    color: #404040;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.location-icon {
+    display: flex;
+    gap: 80px;
+    margin-top: 28px;
+}
+
+.start,
+.point,
+.save {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 124px;
+
+}
+
+.start p,
+.point p,
+.save p {
+    margin-top: 16px;
+    color: #555859;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.point {
+    justify-content: end;
+}
+
+.location {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.location-table {
+    width: 100%;
+
+}
+
+.location-table-main {
+    margin: 0 auto;
+    width: 80%;
+    border-top: 2px solid;
+}
+
+.location-table-main td {
+    padding: 30px 0 0 0;
+    color: #555859;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contact-location-map {
+    width: 65%;
+    position: relative;
+}
+
+.map {
+    width: 100%;
+
+}
+
+.map img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.map-chinhanh {
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.map-ntt,
+.map-dbp {
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.25);
+    padding: 16px;
+    width: 40%;
+}
+
+.map-title {
+    color: #555859;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.mao-vitri {
+    color: #555859;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.mao-vitri table {
+    width: 100%;
+}
+
+.mao-vitri td {
+    padding: 8px;
+}
+
+/*footer*/
+.footer-main {
+    display: flex;
+}
+
+footer {
+    background-color: #555859;
+    color: #ffffff;
+}
+
+.footer-main-left {
+    width: 70%;
+    padding: 5rem 0;
+}
+
+.footer-main-left p {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.7em;
+}
+
+footer .up-contact {
+    padding-bottom: 4rem;
+}
+
+footer.up-contact p {
+    margin: 0;
+    text-transform: none;
+}
+
+footer .contact-title h3 {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+footer .down-contact p {
+    text-transform: none;
+}
+
+footer .footer-main-right {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer .social {
+    display: flex;
+}
+
+.social div {
+    width: 1.6em;
+    margin-left: 0.2em;
+}
+
+.social img {
+    width: 100%;
+}
+
+.youtube {
+    height: 100%;
+}
+
+.youtube a {
+    height: 100%;
+}
+
+.donwload div {
+    margin: 20px 0;
+}
+
+.donwload div a {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.donwload div img {
+    width: 80%;
+}
+
+.xac-minh a {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.xac-minh img {
+    width: 80%;
+}
+
+.footer-phu {
+    background-color: #05A9D7;
+    padding: 20px 0;
+}
+
+.footer-phu p {
+    text-align: center;
+    color: #222;
+    font-weight: 600;
+    font-size: 0.7em;
+    margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .header-menu a {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 1920px) {}
